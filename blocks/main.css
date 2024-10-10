@@ -1,0 +1,84 @@
+.content {
+  max-width: 984px;
+margin: auto;
+
+
+}
+.content__title {
+  padding-top: 92px;
+  padding-bottom: 39.98px;
+  max-width: 830px;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 58px;
+  text-align: left;
+  color: #FFFFFF;
+
+}
+.content__cita {
+  padding-bottom: 10px;
+font-family: "Inter", Arial, sans-serif;
+font-size: 24px;
+font-weight: 400;
+line-height: 34px;
+text-align: left;
+color: #FFFFFF;
+}
+.content__cita__autor {
+max-width: 830px;
+font-family: "Inter", Arial, sans-serif;
+font-size: 24px;
+font-weight: 400;
+line-height: 34px;
+text-align: right;
+color: #FFFFFF;
+}
+.content__tex {
+padding-top: 31.99px;
+padding-bottom: 92px;
+max-width: 830px;
+font-family: "Inter", Arial, sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 26.08px;
+text-align: left;
+color: #FFFFFF;
+}
+@media screen and (max-width: 768px) {
+  .content {
+    margin: auto;
+    width: 720px;
+  }
+  .content__title {
+    padding-top: 64px;
+    width: 707px;
+    font-size: 45px;
+    line-height: 35px;
+  }
+  .content__cita {
+    width: 720px;
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .content__tex {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .content {
+    margin: auto;
+    width: 288px;
+  }
+  .content__title {
+    width: 288px;
+    font-size: 32px;
+  }
+  .content__cita {
+    width: 288px;
+    font-size: 24px;
+  }
+  .content__tex {
+    font-size: 16px;
+  }
+}
