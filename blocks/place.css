@@ -55,12 +55,14 @@ color: #fff;
 .place__paragraph {
 margin: 0;
 grid-area: place-paragraph;
-font-family: Inter;
-font-size: 18px;
-font-weight: 400;
-line-height: 29.34px;
-text-align: left;
-color: #fff;
+}
+.place__paragraph-tex {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29.34px;
+  text-align: left;
+  color: #fff;
 }
 .place__button {
   margin-top: 48px;
@@ -73,7 +75,7 @@ color: #fff;
   font-weight: 600;
   line-height: 21.78px;
   color: #fff;
-  background-image: linear-gradient(#0278FE, #003A7B);
+  background-image: linear-gradient(to right, #0278FE, #003A7B);
   box-shadow: 5px 5px 10px #000;
 }
 .place__button:hover {
