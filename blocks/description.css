@@ -1,11 +1,11 @@
-.article {
+.description {
   max-width: 984px;
 margin: auto;
 max-width: 830px;
 
 
 }
-.article__title {
+.description__title {
   padding-top: 92px;
   padding-bottom: 39.98px;
   font-family: "Inter", Arial, sans-serif;
@@ -16,7 +16,7 @@ max-width: 830px;
   color: #FFFFFF;
 
 }
-.article__cita {
+.description__cita {
   padding-bottom: 10px;
 font-family: "Inter", Arial, sans-serif;
 font-size: 24px;
@@ -25,7 +25,7 @@ line-height: 34px;
 text-align: left;
 color: #FFFFFF;
 }
-.article__autor {
+.description__autor {
 font-family: "Inter", Arial, sans-serif;
 font-size: 24px;
 font-weight: 400;
@@ -33,7 +33,7 @@ line-height: 34px;
 text-align: right;
 color: #FFFFFF;
 }
-.article__tex {
+.description__tex {
 padding-top: 31.99px;
 padding-bottom: 92px;
 font-family: "Inter", Arial, sans-serif;
@@ -44,39 +44,39 @@ text-align: left;
 color: #FFFFFF;
 }
 @media screen and (max-width: 768px) {
-  .article {
+  .description {
     margin: auto;
     width: 720px;
   }
-  .article__title {
+  .description__title {
     padding-top: 64px;
     width: 707px;
     font-size: 45px;
     line-height: 35px;
   }
-  .article__cita {
+  .description__cita {
     width: 720px;
     font-size: 24px;
     line-height: 30px;
   }
-  .article__tex {
+  .description__tex {
     font-size: 16px;
   }
 }
 @media screen and (max-width: 320px) {
-  .article {
+  .description {
     margin: auto;
     width: 288px;
   }
-  .article__title {
+  .description__title {
     width: 288px;
     font-size: 32px;
   }
-  .article__cita {
+  .description__cita {
     width: 288px;
     font-size: 24px;
   }
-  .article__tex {
+  .description__tex {
     font-size: 16px;
   }
 }
