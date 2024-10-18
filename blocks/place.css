@@ -78,6 +78,7 @@ grid-area: place-paragraph;
   box-shadow: 5px 5px 10px #000;
 }
 .place__button:hover {
+  background-image: linear-gradient(to right, #0278FE, #003A7B);
   opacity: 25%;
 }
 @media screen and (max-width: 768px) {
