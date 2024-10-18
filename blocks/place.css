@@ -30,7 +30,7 @@ width: 100%;
 box-shadow: 10px 10px 25px #000;
 }
 .place__image:hover {
-  opacity: .5 ;
+  opacity: 50%;
 }
 .place__artist-title {
 grid-area: place-artist-title;
@@ -74,12 +74,11 @@ grid-area: place-paragraph;
   font-weight: 600;
   line-height: 21.78px;
   color: #fff;
-  background-image: linear-gradient(to right, #0278FE, #003A7B);
+  background: linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%);
   box-shadow: 5px 5px 10px #000;
 }
 .place__button:hover {
-  background-image: linear-gradient(to right, #0278FE, #003A7B);
-  opacity: 25%;
+  background: linear-gradient(90deg, rgba(2, 120, 254, 0.25) 0%, rgba(0, 58, 123, 0.25) 99.98%);
 }
 @media screen and (max-width: 768px) {
   .place__title {
